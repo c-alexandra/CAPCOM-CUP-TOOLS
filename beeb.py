@@ -29,11 +29,17 @@ def challonge_scrape(user, apikey, owner, name, target):
 
 if __name__ == "__main__":
 
+    # user = "algolagniac"
+    # apikey = "L6p4JuLEnPL3Dna41T0oyt0Uaxns6muRxxYuIsZ0"
+    # owner = "tloc"
+    # tour_name = "USW38R"
+    # target = "example1"
+
     user = "algolagniac"
     apikey = "L6p4JuLEnPL3Dna41T0oyt0Uaxns6muRxxYuIsZ0"
-    owner = "tourney_locator"
-    tour_name = "usw38_redemption"
-    target = "example1"
+    owner = "CapcomFighters"
+    tour_name = "capcom_cup_2015"
+    target = "capcup_2015"
 
     if not os.path.isdir("%s/%s" %(target, tour_name)):
         os.makedirs("%s/%s" % (target, tour_name))
